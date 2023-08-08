@@ -1,8 +1,0 @@
-*
-
-# Whitelist gitignore
-!.gitignore
-
-# Eksklusi Folder Konfigurasi
-!nvim/
-!nvim/*
