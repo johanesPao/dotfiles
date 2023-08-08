@@ -1,0 +1,6 @@
+alias cdh="cd $HOME"
+alias cdc="cd ~/.config"
+alias py="python3"
+alias python="python3"
+alias edit_alias="nvim ~/.bash_aliases"
+alias cdproject="cd ~/windir/e/ProjectInGit"

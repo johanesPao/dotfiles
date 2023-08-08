@@ -1,0 +1,12 @@
+*/
+.*
+
+# White list gitignore
+!.gitignore
+
+# White list dotfiles
+!.bash_aliases
+!.bashrc
+
+# White List Folder Konfigurasi
+!.config/
