@@ -309,3 +309,116 @@ printenv
 alacritty
 /usr/bin/alacritty
 exit
+cdh
+nvim .gitignore
+git status
+type -p curl >/dev/null || (sudo apt update && sudo apt install curl -y)
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg && sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg && echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null && sudo apt update && sudo apt install gh -y
+gh auth login
+git remote add origin https://github.com/johanesPao/dotfiles.git
+git status
+git add .
+git status
+git commit -m "Initial dotfiles"
+git config --global user.email "johanes.pao@gmail.com"
+git config --global user.name "Johanes Indra Pradana Pao"
+git status
+git commit -m "Initial dotfiles"
+git push origin main
+ls -al .config
+ls -al .config/gh
+nano .config/gh/config.yml
+nano .config/gh/hosts.yml
+nvim .gitignore
+git status
+nvim .gitignore
+git status
+nvim .config/.gitignore
+nvim .gitignore
+nvim .config/.gitignore
+nvim .gitignore
+it status
+git status
+exit
+cd ~/
+ls -al
+git init
+git branch -m main
+ls -al
+git status
+ls -al .config
+git status
+git add .
+git commit -m "NVIM folder"
+git push origin main
+ls -al .config/nvim
+ls -al .config/nvim/lua
+git status
+ls -al .config/nvim/lua
+git status
+rm -rf .config/.gitignore
+git status
+git log --oneline
+git status
+ls -al .config/nvim/konfigurasi
+ls -al .config/nvim/lua
+git status
+ls -al .config/nvim/lua
+ls -al .config/nvim/lua/konfigurasi
+git status
+ls -al .config/nvim/lua/konfigurasi
+ls -al .config/nvim/lua/
+ls -al .config/nvim/lua/plugins
+git status
+cd Downloads
+git clone https://github.com/johanesPao/undecided.git
+cd ..
+git status
+git add .
+git status
+ls -la .config
+git status
+git log --oneline
+git commit -m "NVIM folder II"
+git push origin main
+exit
+cdh
+git status
+cdproject
+cdc
+ls -la
+cd nvim
+ls -al
+nvim lua/konfigurasi/lazy.lua
+nvim lua/plugins/treesitter.lua
+nvim
+nvim ~/windir/e/ProjectInGit/undecided/undecided.py
+nvim lua/plugins/telescope.lua
+nvim
+nvim lua/plugins/tree.lua
+nvim
+exit
+nvim
+nvim .config/nvim/init.lua
+nvim .config/nvim/lua/konfigurasi/lazy.lua
+ls -la
+ls -la windir/e/ProjectInGit
+ls -la windir/e/ProjectInGit/undecided
+cd windir/e/ProjectInGit/undecided
+ls -la
+. tuyul/bin/activate
+mkdir api_rahasia
+ls -la
+nvim api_rahasia/konfigurasi.py
+cdc
+nvim nvim/lua/plugins/lspzero.nvim
+mv nvim/lua/plugins/lspzero.nvim nvim/lua/plugins/lspzero.lua
+nvim nvim/lua/plugins/lspzero.lua
+nvim nvim/lua/plugins/tokyonight.lua
+nvim nvim/lua/plugins/lspzero.lua
+nvim
+nvim nvim/lua/plugins/lspzero.lua
+exit
+cdh
+git status
+exit
